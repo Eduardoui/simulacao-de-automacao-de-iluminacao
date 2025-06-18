@@ -18,13 +18,13 @@ def medir_luminosidade():
 def controlar_luz(presenca, luminosidade):
     #Se houver presença e o ambiente estiver escuro, liga a luz
     if presenca and luminosidade < 40:
-        print("💡 Luz ligada (ambiente escuro e presença detectada)")
+        print( "Luz ligada (ambiente escuro e presença detectada)")
     #Se não houver ninguém no ambiente, desliga a luz
     elif not presenca:
-        print("💤 Ambiente vazio – luz desligada")
+        print("Ambiente vazio – luz desligada")
     #Se estiver claro, mesmo com presença, mantém a luz desligada
     else:
-        print("🌞 Ambiente claro – luz desligada")
+        print("Ambiente claro – luz desligada")
 
 
 #Simula 10 ciclos de monitoramento (como se fosse tempo real)
@@ -34,8 +34,8 @@ for _ in range(10):
     luminosidade = medir_luminosidade()
 
     #Mostra os valores lidos no terminal
-    print(f"\n📡 Presença: {presenca}")
-    print(f"🔦 Luminosidade: {luminosidade}")
+    print(f"\n Presença: {presenca}")
+    print(f" Luminosidade: {luminosidade}")
 
     #Chama a função que toma a decisão e age com base nas leituras
     controlar_luz(presenca, luminosidade)
