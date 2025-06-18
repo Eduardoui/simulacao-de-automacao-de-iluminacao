@@ -1,11 +1,11 @@
-#simulacao-de-automacao-de-iluminacao
+# simulacao-de-automacao-de-iluminacao
 
-#Automação Residencial Sustentável com Google Assistente e IA
+# Automação Residencial Sustentável com Google Assistente e IA
 
 Este projeto foi desenvolvido como parte da disciplina **Soluções em Energias Renováveis e Sustentáveis**, com o objetivo de propor uma solução tecnológica sustentável que contribua para a redução do desperdício de energia elétrica em residências brasileiras.
 
 
-##Equipe
+## Equipe
 
 - Eduardo Bacelar Rudner  
 - Allan de Souza Cardoso
@@ -14,7 +14,7 @@ Este projeto foi desenvolvido como parte da disciplina **Soluções em Energias 
 - Raquel Amaral de Oliveira 
 - Professor Orientador: André Tritiack de Farias
 
-##Objetivo do Projeto
+## Objetivo do Projeto
 
 Apresentar uma solução de automação residencial sustentável, que integra:
 
@@ -25,12 +25,12 @@ Apresentar uma solução de automação residencial sustentável, que integra:
 - ESP32 e automações via Node-RED;
   
 
-##Contexto
+## Contexto
 
 Mais de **10% da energia elétrica no Brasil é desperdiçada** por hábitos inadequados e equipamentos ineficientes. O projeto visa mitigar esse problema com uma solução acessível, inteligente e adaptável, otimizando o uso da energia com base no comportamento dos moradores e dados em tempo real.
 
 
-##Tecnologias Pretendidas
+## Tecnologias Pretendidas
 
 - ESP32 com sensores conectados (PIR, efeito Hall, temperatura, etc)
 - Node-RED para criação de fluxos de automação
